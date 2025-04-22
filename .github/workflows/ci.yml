@@ -11,12 +11,19 @@ jobs:
       - name: Checkout código
         uses: actions/checkout@v3
 
-      - name: Verificar Python Scraper
+      - name: Verificar Python Scraper (se existir)
         run: |
-          cd scraper
-          python viva_real_scraper.py --versao || echo "Script sem argumentos ainda"
+          if [ -f scraper/viva_real_scraper.py ]; then
+            python scraper/viva_real_scraper.py --versao || echo "Script ainda não implementado"
+          else
+            echo "Arquivo do scraper ainda não existe"
+          fi
 
-      - name: Build .NET
+      - name: Build .NET API (se existir)
         run: |
-          cd api/MapaImobiliario.API
-          dotnet build
+          if [ -d api/MapaImobiliario.API ]; then
+            cd api/MapaImobiliario.API
+            dotnet build
+          else
+            echo "Projeto .NET ainda não existe"
+          fi
