@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [dev]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Verificar Python Scraper
+        run: |
+          cd scraper
+          python viva_real_scraper.py --versao || echo "Script sem argumentos ainda"
+
+      - name: Build .NET
+        run: |
+          cd api/MapaImobiliario.API
+          dotnet build
