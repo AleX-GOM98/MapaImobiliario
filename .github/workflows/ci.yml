@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [dev]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Verificar Python Scraper (se existir)
+        run: |
+          if [ -f scraper/viva_real_scraper.py ]; then
+            python scraper/viva_real_scraper.py --versao || echo "Script ainda não implementado"
+          else
+            echo "Arquivo do scraper ainda não existe"
+          fi
+
+      - name: Build .NET API (se existir)
+        run: |
+          if [ -d api/MapaImobiliario.API ]; then
+            cd api/MapaImobiliario.API
+            dotnet build
+          else
+            echo "Projeto .NET ainda não existe"
+          fi
