@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:15
+    container_name: mapa_imobiliario_db
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - mapa_imobiliario_data:/var/lib/postgresql/data
+    networks:
+      - mapa_imobiliario_network
+
+volumes:
+  mapa_imobiliario_data:
+
+networks:
+  mapa_imobiliario_network:
+    driver: bridge
