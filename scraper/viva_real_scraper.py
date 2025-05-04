@@ -1,26 +1,33 @@
 import asyncio
 from playwright.async_api import async_playwright
 import re
+import json
 
 URL = "https://www.vivareal.com.br/venda/minas-gerais/belo-horizonte/"
 
 def extract_price(price_str):
-    # Expressão regular para capturar o valor do preço
-    price_match = re.search(r'R\$\s?([\d\.,]+)', price_str)
-    if price_match:
-        # Remove os pontos e substitui a vírgula por ponto para formato numérico
-        return price_match.group(1).replace('.', '').replace(',', '.')
-    return None
+    match = re.search(r'R\$\s?([\d\.,]+)', price_str)
+    return match.group(1).replace('.', '').replace(',', '.') if match else None
 
 def extract_condominio_iptu(price_str):
-    # Expressão regular para capturar valores de condomínio e IPTU
     condominio_match = re.search(r'Cond\.\sR\$\s?([\d\.,]+)', price_str)
     iptu_match = re.search(r'IPTU\sR\$\s?([\d\.,]+)', price_str)
-    
     condominio = condominio_match.group(1).replace('.', '').replace(',', '.') if condominio_match else None
     iptu = iptu_match.group(1).replace('.', '').replace(',', '.') if iptu_match else None
-    
     return condominio, iptu
+
+async def buscar_endereco_completo(context, url):
+    try:
+        page = await context.new_page()
+        await page.goto(url, timeout=60000)
+        await page.wait_for_timeout(2000)
+        endereco_element = await page.query_selector('span[data-cy="listing-address"]')
+        endereco_completo = await endereco_element.inner_text() if endereco_element else ""
+        await page.close()
+        return endereco_completo.strip()
+    except Exception as e:
+        print(f"Erro ao acessar detalhe: {e}")
+        return ""
 
 async def buscar_imoveis_viva_real():
     async with async_playwright() as p:
@@ -35,40 +42,39 @@ async def buscar_imoveis_viva_real():
         await page.wait_for_timeout(3000)
         await page.mouse.wheel(0, 3000)
         await page.wait_for_timeout(2000)
-
         await page.wait_for_selector('[data-cy="rp-property-cd"]', timeout=60000)
 
         cards = await page.query_selector_all('[data-cy="rp-property-cd"]')
-
         imoveis = []
+
         for card in cards:
             try:
                 titulo_el = await card.query_selector("h2")
-                endereco_el = await card.query_selector("p")
                 preco_el = await card.query_selector("div[data-cy='rp-cardProperty-price-txt']")
-                condominio_el = await card.query_selector("p.text-neutra1-119.overflow-hidden.text-ellipsis")  # Verificar se existe esse campo
                 link_el = await card.query_selector("a")
 
                 titulo = await titulo_el.inner_text() if titulo_el else ""
-                endereco = await endereco_el.inner_text() if endereco_el else ""
                 preco = await preco_el.inner_text() if preco_el else ""
-                
-                # Tentar pegar o condomínio e IPTU
                 condominio, iptu = extract_condominio_iptu(preco)
                 preco_formatado = extract_price(preco)
 
                 link = await link_el.get_attribute("href") if link_el else ""
-
-                # Verificar se o link já contém o domínio e, se necessário, concatenar
                 if link and not link.startswith("https://www.vivareal.com.br"):
                     link = f"https://www.vivareal.com.br{link.strip()}"
 
+                endereco_el = await page.query_selector('span[data-cy="listing-address"]')
+                if not endereco_el:
+                    # Tentar alternativa (pode variar)
+                    endereco_el = await page.query_selector('p[data-cy="listing-address"]')
+
+                endereco = await buscar_endereco_completo(context, link) if link else ""
+
                 imoveis.append({
                     "titulo": titulo.strip(),
-                    "endereco": endereco.strip(),
-                    "preco": preco_formatado,  # Usando o preço formatado
-                    "condominio": condominio,  # Condominio extraído
-                    "iptu": iptu,  # IPTU extraído
+                    "endereco": endereco,
+                    "preco": preco_formatado,
+                    "condominio": condominio,
+                    "iptu": iptu,
                     "link": link
                 })
             except Exception as e:
@@ -78,6 +84,5 @@ async def buscar_imoveis_viva_real():
         return imoveis
 
 if __name__ == "__main__":
-    dados = asyncio.run(buscar_imoveis_viva_real())
-    for imovel in dados:
-        print(imovel)
+    dados = asyncio.run(buscar_imoveis_viva_real())    
+    print(json.dumps(dados, ensure_ascii=False, indent=2))
