@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "J:\\Projetos\\Completo\\MapaImobiliario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\services\\scraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\services\\scraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\controllers\\imoveiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\controllers\\imoveiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\services\\iscraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\services\\iscraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\services\\scraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\services\\scraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\models\\imovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\models\\imovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\services\\iscraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\services\\iscraperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\migrations\\20250503223154_newfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,14 +47,6 @@
       "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\models\\imovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\models\\imovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|j:\\projetos\\completo\\mapaimobiliario\\api\\mapaimobiliario.api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{316A208E-1547-C13B-2F6B-2B9883AEEF3A}|api\\MapaImobiliario.API\\MapaImobiliario.API.csproj|solutionrelative:api\\mapaimobiliario.api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -58,50 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IScraperService.cs",
-              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Services\\IScraperService.cs",
-              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Services\\IScraperService.cs",
-              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Services\\IScraperService.cs*",
-              "RelativeToolTip": "api\\MapaImobiliario.API\\Services\\IScraperService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T02:01:16.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\appsettings.json",
-              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\appsettings.json",
-              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\appsettings.json",
-              "RelativeToolTip": "api\\MapaImobiliario.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-04T01:48:42.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Properties\\launchSettings.json",
-              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "api\\MapaImobiliario.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-04T01:48:28.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "20250503223154_newFields.cs",
               "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Migrations\\20250503223154_newFields.cs",
               "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Migrations\\20250503223154_newFields.cs",
@@ -113,13 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ScraperService.cs",
               "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Services\\ScraperService.cs",
               "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Services\\ScraperService.cs",
-              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Services\\ScraperService.cs*",
-              "RelativeToolTip": "api\\MapaImobiliario.API\\Services\\ScraperService.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAD4vyAAAAAAAAAAAAAAAA==",
+              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Services\\ScraperService.cs",
+              "RelativeToolTip": "api\\MapaImobiliario.API\\Services\\ScraperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T22:17:09.139Z",
               "EditorCaption": ""
@@ -138,15 +99,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Program.cs",
               "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Program.cs",
               "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Program.cs",
               "RelativeToolTip": "api\\MapaImobiliario.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T22:05:45.859Z"
+              "WhenOpened": "2025-04-27T22:05:45.859Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -154,16 +116,81 @@
               "Title": "ImoveisController.cs",
               "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Controllers\\ImoveisController.cs",
               "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Controllers\\ImoveisController.cs",
-              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Controllers\\ImoveisController.cs*",
-              "RelativeToolTip": "api\\MapaImobiliario.API\\Controllers\\ImoveisController.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAD4vyYAAAAAAAAAAAAAAA==",
+              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Controllers\\ImoveisController.cs",
+              "RelativeToolTip": "api\\MapaImobiliario.API\\Controllers\\ImoveisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T22:01:34.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "api\\MapaImobiliario.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:02:03.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Imovel.cs",
+              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Models\\Imovel.cs",
+              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Models\\Imovel.cs",
+              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Models\\Imovel.cs",
+              "RelativeToolTip": "api\\MapaImobiliario.API\\Models\\Imovel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:02:48.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\appsettings.json",
+              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\appsettings.json",
+              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\appsettings.json",
+              "RelativeToolTip": "api\\MapaImobiliario.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-04T01:48:42.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Properties\\launchSettings.json",
+              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "api\\MapaImobiliario.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-04T01:48:28.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IScraperService.cs",
+              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Services\\IScraperService.cs",
+              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Services\\IScraperService.cs",
+              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Services\\IScraperService.cs",
+              "RelativeToolTip": "api\\MapaImobiliario.API\\Services\\IScraperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:01:16.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -176,18 +203,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Imovel.cs",
-              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Models\\Imovel.cs",
-              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Models\\Imovel.cs",
-              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Models\\Imovel.cs",
-              "RelativeToolTip": "api\\MapaImobiliario.API\\Models\\Imovel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T22:02:48.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "20250503224310_makeFildsImovelNullable.cs",
               "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Migrations\\20250503224310_makeFildsImovelNullable.cs",
               "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Migrations\\20250503224310_makeFildsImovelNullable.cs",
@@ -196,18 +211,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T22:48:46.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "api\\MapaImobiliario.API\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "J:\\Projetos\\Completo\\MapaImobiliario\\api\\MapaImobiliario.API\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "api\\MapaImobiliario.API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T22:02:03.854Z"
             }
           ]
         }

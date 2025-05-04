@@ -26,6 +26,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Adicionar CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // Pipeline HTTP
@@ -36,6 +47,6 @@ if (app.Environment.IsDevelopment())
 }
 
 // app.UseHttpsRedirection(); // opcional
-
+app.UseCors("AllowAll");
 app.MapControllers();
 app.Run();
