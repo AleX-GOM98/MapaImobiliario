@@ -1,36 +1,41 @@
 using DotNetEnv;
 using MapaImobiliario.API.Data;
+using MapaImobiliario.API.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 Env.Load();
 
-// Adicionar serviços ao contêiner
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(Environment.GetEnvironmentVariable("DATABASE_URL")));
-builder.Services.AddControllers();
-builder.Services.AddScoped<ScraperService>();
-
-// Configurar o logging
+// Logging
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
+// Configuração de conexão com banco
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? Environment.GetEnvironmentVariable("DATABASE_URL");
+
+if (string.IsNullOrWhiteSpace(connectionString))
+    throw new InvalidOperationException("DATABASE_URL não está configurada.");
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(connectionString));
+
+// Serviços
+builder.Services.AddScoped<IScraperService, ScraperService>();
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
-// Configuração do pipeline de requisição HTTP
+// Pipeline HTTP
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseRouting();  // Defina as rotas antes de configurar os endpoints
+// app.UseHttpsRedirection(); // opcional
 
-// Se quiser redirecionar para HTTPS, descomente a linha abaixo
-// app.UseHttpsRedirection();
-
-app.MapControllers();  // Configura as rotas dos controladores (incluindo sua API)
-
+app.MapControllers();
 app.Run();
